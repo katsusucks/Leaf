@@ -5,16 +5,16 @@ const { Voice, LoadCommands, Bot } = require("aoi.js");
 
 const aoi = require("aoi.js")
 const bot = new aoi.Bot({
-token: "MTAyOTcwMDUzODEwMDYzMzY1MQ.G-SiHa.e8vp_yr53AnIe6I4fhW_Hv084-PkMg05jRM1Yg",
-prefix: "?",
+token: "BOT_TOKEN",
+prefix: "BOT_PREFIX",
 intents: ["GUILDS", "GUILD_MESSAGES", "GUILD_VOICE_STATES"]
 })
 const aoidash = require('aoi.js-panel')
 const dash = new aoidash.Dash(bot, {
 port: 8080,
 command: './commands', //your command handler
-username: "zachary", //username to login to dashboard
-password: "iamcool" //password to login to dashboard
+username: "", //username to login to dashboard
+password: "" //password to login to dashboard
 })
 dash.start()
 
