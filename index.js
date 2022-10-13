@@ -100,6 +100,8 @@ bot.interactionCommand({
   code: `$interactionReply[Pong! $pingms]`
 })
 
+//No need to give any credits :)
 //Fucking Shit 
 
 console.log("Coded by daddy Hyper")
+
